@@ -38,8 +38,8 @@ const Images = () => {
       scrollTrigger: {
         trigger: ".images-section",
         scroller: "body",
-        start: "top 30%",
-        end: "top -200%",
+        start: "top 40%",
+        end: "top -60%",
         scrub: true,
       },
       defaults: {
@@ -69,8 +69,7 @@ const Images = () => {
   return (
     <>
       {/* Section Title */}
-      <div className="w-full flex justify-center mt-80
-       mb-80">
+      <div className="w-full flex justify-center pt-24 pb-12 sm:pt-32 sm:pb-16">
         <h1 className="works-title text-5xl sm:text-7xl font-semibold tracking-tight 
 bg-gradient-to-r from-neutral-900 via-neutral-700 to-neutral-900 
 bg-clip-text text-transparent">
@@ -81,7 +80,7 @@ bg-clip-text text-transparent">
       </div>
 
       {/* Images Section */}
-      <div className="images-section w-full h-[50vh] sm:h-[180vh] overflow-hidden flex items-center justify-center">
+      <div className="images-section w-full h-[65vh] sm:h-[105vh] overflow-hidden flex items-center justify-center">
         <div className="relative w-1/3 sm:w-1/4 h-1/2">
           {position.map((item, index) => (
             <div
@@ -108,12 +107,12 @@ bg-clip-text text-transparent">
 
           <img
             src="/middleimage.jpg"
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover"s
             alt=""
           />
 
           {/* Projects CTA */}
-          <div className="absolute bottom-[-120px] left-1/2 -translate-x-1/2">
+          <div className="absolute -bottom-15 left-1/2 -translate-x-1/2">
             <a
               href="https://github.com/Dhanalakshmi-D04"
               target="_blank"

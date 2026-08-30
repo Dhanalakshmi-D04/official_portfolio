@@ -78,12 +78,12 @@ const Playreel = () => {
         </div>
 
         <h2 className="w-full flex items-center justify-center gap-32 sm:gap-[42%]">
-          <div className="text-6xl sm:text-9xl">AI</div>
-          <div className="text-6xl sm:text-9xl">ML</div>
+          <div className="text-6xl sm:text-9xl">Fo</div>
+          <div className="text-6xl sm:text-9xl">cus</div>
         </h2>
 
         <p className="text-center text-xs text-white/85 font-medium tracking-wide">
-          Focused on Computer Vision, AI, ML, understanding and building systems
+          Focused on kubernetes,Backend development and building systems
         </p>
 
         <p className="text-center text-sm">
